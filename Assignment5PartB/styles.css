@@ -63,12 +63,13 @@
   background: -webkit-repeating-linear-gradient(left, #f0e518 20%, #34373a 30%,#5c345e 20%);
 }
 
-h6{
+.news{
   text-decoration: 0.5px underline dashed;
   color:chocolate !important;
   font-family: 'Montserrat Alternates', sans-serif;
   font-weight: 50 !important;
   font-size: 1.5em !important;
+  background-color: transparent !important;
 }
 
 /*---grid layout---*/
