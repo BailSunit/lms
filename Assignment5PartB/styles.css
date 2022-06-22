@@ -78,3 +78,52 @@ h6{
   font-size: 1.2em;
   text-align: center;
 }
+
+h6{
+  background-color:orange ;
+}
+.events-btn{
+  background-color: beige !important;
+  color: white;
+  font-weight: bold;
+  border: 2px solid  !important;
+}
+
+.events-btn:hover{
+  background-color: #ca0909;
+  border: 1px solid #4d0000;
+}
+
+.quote{
+  width: 80%;
+  margin:auto;
+}
+
+.quoteAuthor{
+  font-size: 13px;
+  background-color: #387000;
+  color:#ffffff;
+  width: 50%;
+  margin:auto;
+}
+
+
+footer{
+  background-color: #e2e2e2;
+}
+
+.badge-container {
+  position: fixed; 
+  bottom: 20px; 
+  right: 20px;
+  color: #2eb82e;
+}
+
+.badge-notify {
+  background: black;
+  position: relative;
+  top: -35px;
+  left: -25px;
+  font-size: 14px;
+  border-radius: 50%;
+}
