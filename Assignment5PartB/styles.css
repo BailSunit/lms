@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@1,300&family=Lato:ital,wght@1,300&family=Roboto:ital,wght@0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@1,300&family=Lato:ital,wght@1,300&family=Montserrat+Alternates:wght@300&family=Roboto:ital,wght@0,400;1,300&display=swap');
+
+
 .navbar .navbar-nav > li > a:hover,
 .navbar .navbar-nav > li > a:focus {
     color: rgb(66, 109, 177);
@@ -52,10 +56,25 @@
   opacity:0.8;
 }
 
-hr {
+#navHr {
   margin: 0 !important;
   border: 0;
   height:15px !important;
   background: -webkit-repeating-linear-gradient(left, #f0e518 20%, #34373a 30%,#5c345e 20%);
 }
 
+h6{
+  text-decoration: 0.5px underline dashed;
+  color:chocolate !important;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: 50 !important;
+  font-size: 1.5em !important;
+}
+
+/*---grid layout---*/
+.mediaLink a{
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2em;
+  text-align: center;
+}
